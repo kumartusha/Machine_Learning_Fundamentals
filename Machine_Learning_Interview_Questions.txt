@@ -1,0 +1,18 @@
+1. Why Cognizant? (Followed by cross-questions)
+2. Explain the Difference between Supervised and Unsupervised Learning.
+3. What is Reinforcement Learning?
+4. Name some algorithms you are familiar with.
+5. SVM vs Linear Regression – What's the difference?
+6. How would you react if offered a support role instead of an SDE role? (Follow-up discussions)
+7. Explain directories in Python.
+8. Write a code using threads, semaphores, and synchronized keywords in Java.
+9. What is a SELF JOIN in SQL?
+10. Print a given pattern.
+11. Write a code to take some random words and produce a grammatically correct sentence (rearranging those jumbled words).
+For the jumbled word problem, I initially proposed using a HashMap of Vector -> String in C++ since the solution could rely on user memory.
+A long discussion followed where I was asked to write the code in Java instead. This led to a debate about C++ vs Java and why companies prefer Java.
+12. Are you familiar with the Travelling Salesman Problem (TSP)?
+Task: Find the shortest path between City A and City C in a network of 5 cities.
+Follow-up: Solve it using recursion (which I managed to do).
+13. What is a knowledge base?
+Verdict :- Rejected
