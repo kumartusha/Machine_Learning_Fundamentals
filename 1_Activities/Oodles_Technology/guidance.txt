@@ -1,0 +1,163 @@
+NumPy Concepts and Questions ********************************************************************
+Step 1: Basics
+Creating Arrays:
+
+np.array(), np.zeros(), np.ones(), np.arange(), np.linspace().
+Example:
+
+python
+Copy code
+import numpy as np
+arr = np.array([1, 2, 3])
+zeros = np.zeros((2, 2))
+Array Indexing and Slicing:
+
+Access specific elements: arr[1], arr[:, 1].
+Boolean indexing: arr[arr > 2].
+Interview Question:
+
+How to slice a 2D array to extract the first two rows?
+Array Operations:
+
+Element-wise: arr1 + arr2, arr * 2.
+Aggregations: np.sum(arr), np.mean(arr), np.std(arr).
+Step 2: Advanced Operations
+Broadcasting:
+
+Operations between arrays of different shapes.
+Example:
+
+python
+Copy code
+arr = np.array([1, 2, 3])
+arr2 = np.array([[1], [2], [3]])
+result = arr + arr2
+Reshaping and Flattening:
+
+arr.reshape(), arr.flatten().
+Matrix Operations:
+
+Dot product: np.dot(a, b) or a @ b.
+Interview Question:
+
+How would you calculate the dot product of two matrices?
+Random Module:
+
+np.random.rand(), np.random.randint().
+
+
+Pandas Concepts and Questions  ********************************************************************
+Step 1: Basics
+Creating DataFrames:
+
+From dictionaries or lists: pd.DataFrame().
+Reading data: pd.read_csv().
+Example:
+
+python
+Copy code
+import pandas as pd
+data = {'A': [1, 2], 'B': [3, 4]}
+df = pd.DataFrame(data)
+Interview Question:
+
+How to read a CSV file into a DataFrame?
+Indexing and Slicing:
+
+Accessing columns: df['A'].
+Accessing rows: df.loc[0], df.iloc[0].
+Basic Operations:
+
+df.describe(), df.info(), df.shape.
+Step 2: Data Manipulation
+Handling Missing Values:
+
+df.dropna(), df.fillna().
+Sorting and Filtering:
+
+df.sort_values(by='A'), df[df['A'] > 2].
+GroupBy and Aggregations:
+
+df.groupby('column').mean().
+Interview Question:
+
+Explain the difference between .loc and .iloc.
+Merging and Joining:
+
+pd.merge(), df.join().
+Apply Function:
+
+df['column'].apply(lambda x: x * 2).
+
+
+Matplotlib Concepts and Questions  ********************************************************************
+Step 1: Basics
+Basic Plots:
+
+Line plot: plt.plot().
+Scatter plot: plt.scatter().
+Bar plot: plt.bar().
+Example:
+
+python
+Copy code
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+Customizing Plots:
+
+Titles: plt.title().
+Labels: plt.xlabel(), plt.ylabel().
+Step 2: Advanced Features
+Subplots:
+
+plt.subplot(1, 2, 1).
+Histograms:
+
+plt.hist(data).
+Interview Question:
+
+How to create a subplot with multiple plots in Matplotlib?
+Seaborn Concepts and Questions  ********************************************************************
+Step 1: Basics
+Visualizing Data:
+
+Scatter: sns.scatterplot().
+Line: sns.lineplot().
+Example:
+
+python
+Copy code
+import seaborn as sns
+sns.scatterplot(x='A', y='B', data=df)
+Categorical Data:
+
+Bar plot: sns.barplot().
+Count plot: sns.countplot().
+Step 2: Advanced Visualizations
+Heatmaps:
+
+sns.heatmap(corr_matrix).
+Pairplot:
+
+sns.pairplot(data).
+Customizing:
+
+Adding titles: sns.set_title().
+Themes: sns.set_style().
+Interview Preparation
+Practice Questions
+NumPy:
+
+How would you create a 3x3 identity matrix in NumPy?
+Explain broadcasting in NumPy with an example.
+Pandas:
+
+How to handle missing data in Pandas?
+Explain the difference between .loc[] and .iloc[].
+Matplotlib:
+
+How to plot two lines on the same graph?
+Seaborn:
+
+How to create a heatmap using Seaborn?
