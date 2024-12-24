@@ -89,4 +89,6 @@
 # Use a joint plot to visualize two variables with marginal distributions.
 # Create a categorical plot using sns.catplot.
 # Add titles and labels to a Seaborn plot.
-# Create a time series plot with Seaborn.
+# Create a time series plot with Seaborn
+#
+# .
