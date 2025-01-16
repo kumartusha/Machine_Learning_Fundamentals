@@ -24,18 +24,18 @@
 #     text_to_speech(text)
 
 
-
 # Using the another Library *********************************************************************************************************
 from gtts import gTTS
 import os
 import sounddevice as sd
 import soundfile as sf
 
+
 def text_to_speech(text, filename="temp.mp3"):
     try:
         # Convert text to speech and save as a temporary MP3 file
         temp_mp3 = "temp.mp3"
-        tts = gTTS(text=text, lang='en')
+        tts = gTTS(text=text, lang="en")
         tts.save(temp_mp3)
         print("Text-to-Speech conversion successful.")
 
@@ -54,6 +54,7 @@ def text_to_speech(text, filename="temp.mp3"):
         print("Playback complete.")
     except Exception as e:
         print(f"Error in Text-to-Speech: {e}")
+
 
 # Main program
 if __name__ == "__main__":
