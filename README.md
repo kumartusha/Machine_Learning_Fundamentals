@@ -71,7 +71,7 @@ cd machine-learning-algorithms
 pip install -r requirements.txt
 </code>
 
-###💡 **Contributing**
+### 💡 **Contributing**
 Contributions are always welcome! Here’s how you can contribute:
 
 Fork the repository
@@ -80,7 +80,7 @@ Commit your changes (git commit -am 'Add new feature')
 Push to the branch (git push origin feature-xyz)
 Open a pull request
 
-###🛠️ **Resources**
+### 🛠️ **Resources**
 Here are some helpful links and resources for further learning:
 
 📖 Machine Learning Course - Coursera
@@ -89,7 +89,7 @@ Here are some helpful links and resources for further learning:
 📚 Scikit-learn Documentation
 📄 Data Science Resources - Kaggle
 
-###📧 **Contact**
+### 📧 **Contact**
 If you have any questions or would like to collaborate, feel free to reach out to me:
 
 ✉️ Email: kumartusha@gmail.com
