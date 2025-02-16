@@ -10,7 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="/static/crop.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/static/image.png" type="image/x-icon" />
   </head>
   <style>
     h1 {
@@ -52,6 +52,10 @@
       display: flex;
       justify-content: center;
     }
+    .btn-primary {
+      color: white;
+      background-color: brown;
+    }
   </style>
 
   <body style="background: #bcbbb8">
@@ -63,14 +67,14 @@
         >
       </div> -->
       <div class="navbar">
-        <h3>Crop Recommendation System Using Machine Learning</h3>
+        <h3>Smart Farming System Using Machine Learning</h3>
       </div>
     </nav>
 
     <!--==========================================================================================-->
     <div class="container my-3 mt-3">
       <h1 class="text-success">
-        Crop Recommendation System<span class="text-success">🌱</span>
+        Smart Farming System<span class="text-success">🌱</span>
       </h1>
 
       <!--      adding form-->
@@ -174,24 +178,26 @@
         <div class="row mt-4">
           <div class="col-md-12 text-center">
             <button type="submit" class="btn btn-primary btn-lg">
-              Get Recommendation
+              Prediction
             </button>
           </div>
         </div>
       </form>
 
       {% if result %}
-      <div class="card bg-dark" style="width: 29rem">
+      <div class="card bg-darkgoldenrod" style="width: 29rem">
         <!-- <div class="card"></div> -->
         <img
-          src="{{url_for('static', filename='crop.png')}}"
+          src="{{url_for('static', filename='image.png')}}"
           style="width: 70px; height: 70px"
           class="card-img-top"
           alt="..."
         />
         <div class="card-body">
-          <h5 class="card-title">Recommend Crop for Cultivation is:</h5>
-          <p class="card-text">{{ result }}</p>
+          <h5 class="card-title" style="color: black">
+            Recommend Crop for Cultivation is:
+          </h5>
+          <p class="card-text" style="color: rgb(0, 195, 0)">{{ result }}</p>
         </div>
       </div>
       {% endif %}
