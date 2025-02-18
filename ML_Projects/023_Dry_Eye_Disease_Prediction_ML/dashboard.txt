@@ -1,0 +1,53 @@
+1️⃣ Overview Dashboard
+📊 Metrics to Include:
+
+Total Patients
+% of Patients with Dry Eye Disease
+Average Age Distribution
+Gender Distribution (Pie Chart)
+👀 Visuals:
+
+Card for Total Patients, % with Dry Eye.
+Bar Chart for Gender-wise distribution.
+Histogram for Age distribution.
+2️⃣ Sleep & Lifestyle Impact on Dry Eye
+📊 Insights:
+
+Relationship between Sleep Duration & Sleep Quality vs. Dry Eye Disease.
+Impact of Stress Level, Alcohol Consumption, and Smoking on Dry Eye.
+👀 Visuals:
+
+Scatter Plot: Sleep Quality vs. Dry Eye occurrence.
+Bar Chart: Alcohol/Smoking effect on Dry Eye.
+Heatmap: Stress Level vs. Dry Eye cases.
+3️⃣ Screen Time & Eye Strain Analysis
+📊 Insights:
+
+How Average Screen Time affects Dry Eye Disease.
+Impact of Blue-light filter usage.
+Discomfort Eye-Strain, Redness, and Itchiness trends.
+👀 Visuals:
+
+Line Chart: Screen time vs. Dry Eye occurrence.
+Stacked Bar Chart: Blue-light filter usage vs. Dry Eye Symptoms.
+Pie Chart: Proportion of users reporting Eye Strain, Redness, Itchiness.
+4️⃣ Physical & Health Factors Impact
+📊 Insights:
+
+Heart Rate, Blood Pressure (BP), Pulse Pressure vs. Dry Eye.
+How Daily Steps & Physical Activity affect Dry Eye.
+👀 Visuals:
+
+Box Plot: BP & Heart Rate in Dry Eye vs. Non-Dry Eye cases.
+Bar Chart: Daily Steps vs. Dry Eye percentage.
+Scatter Plot: Physical Activity level vs. Dry Eye occurrence.
+5️⃣ Medical & Medication Analysis
+📊 Insights:
+
+Effect of Existing Medical Issues & Ongoing Medications on Dry Eye.
+Common Medical Conditions among Dry Eye patients.
+👀 Visuals:
+
+Tree Map: Common medical conditions in Dry Eye patients.
+Pie Chart: % of patients with ongoing medication.
+Bar Chart: Top medical issues contributing to Dry Eye.
