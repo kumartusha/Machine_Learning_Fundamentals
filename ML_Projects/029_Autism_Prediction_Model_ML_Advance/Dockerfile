@@ -13,8 +13,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Step 5: Expose the port Flask will run on (default is 5000)
 EXPOSE 5000
 
-# Step 6: Set the environment variable to avoid buffering issues with Flask
+# Step 6: Set environment variables
 ENV PYTHONUNBUFFERED=1
+ENV FLASK_APP=app.py
 
-# Step 7: Run the Flask app when the container starts
-CMD ["python", "app.py"]
+# Step 7: Run the Flask app
+CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
